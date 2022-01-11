@@ -26,6 +26,7 @@ const gun = {
     }
 }
 
+//javascript is interpreted so variables regarding objects declared later must be set afterwards
 rock.beats = scissors;
 paper.beats = rock;
 scissors.beats = paper;
